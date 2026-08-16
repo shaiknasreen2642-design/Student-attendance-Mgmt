@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Attendance Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="logo">🎓 AttendEase</div><nav><a href="#home">Home</a><a href="#attendance">Attendance</a><a href="#students">Students</a></nav></header>
+
+<section id="home" class="hero"><div>
+<p class="tag">B.TECH CSE PROJECT</p>
+<h1>Student Attendance<br>Management System</h1>
+<p>Record attendance, calculate percentages, and quickly check student attendance.</p>
+<a class="hero-btn" href="#attendance">Open Attendance</a>
+</div></section>
+
+<section id="attendance" class="section">
+<h2>Attendance Calculator</h2><p class="subtitle">Enter classes attended and total classes.</p>
+<div class="calculator">
+<label>Student Name</label><input id="studentName" type="text" placeholder="Enter student name">
+<label>Classes Attended</label><input id="attended" type="number" min="0" placeholder="Example: 42">
+<label>Total Classes</label><input id="total" type="number" min="1" placeholder="Example: 50">
+<button onclick="calculateAttendance()">Calculate Attendance</button>
+<div id="result"></div>
+</div></section>
+
+<section id="students" class="section light">
+<h2>Sample Student Records</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Name</th><th>Attended</th><th>Total</th><th>Percentage</th></tr></thead>
+<tbody><tr><td>Aisha</td><td>44</td><td>50</td><td>88%</td></tr>
+<tr><td>Rahul</td><td>41</td><td>50</td><td>82%</td></tr>
+<tr><td>Priya</td><td>47</td><td>50</td><td>94%</td></tr></tbody>
+</table></div></section>
+
+<section class="info"><h2>How It Works</h2>
+<div class="steps"><div><b>1.</b> Enter the student's name.</div><div><b>2.</b> Enter attended and total classes.</div><div><b>3.</b> Click Calculate Attendance.</div><div><b>4.</b> The system displays the attendance percentage.</div></div>
+</section>
+
+<footer><h3>🎓 AttendEase</h3><p>Student Attendance Management System</p><p>© 2026 | B.Tech CSE Project</p></footer>
+<script src="script.js"></script>
+</body></html>

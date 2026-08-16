@@ -1,0 +1,18 @@
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f7f9fc;color:#172033}
+header{background:#173b73;color:white;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.logo{font-size:23px;font-weight:bold} nav a{color:white;text-decoration:none;margin-left:20px;font-weight:bold}
+.hero{min-height:540px;padding:70px 8%;display:flex;align-items:center;background:linear-gradient(135deg,#eaf2ff,#dce8fa)}
+.hero>div{max-width:720px}.tag{color:#173b73;font-weight:bold;letter-spacing:2px;margin-bottom:15px}
+.hero h1{font-size:52px;line-height:1.08;margin-bottom:20px}.hero p:not(.tag){font-size:18px;line-height:1.7;margin-bottom:28px}
+.hero-btn,button{display:inline-block;background:#173b73;color:white;border:none;border-radius:8px;padding:14px 22px;font-size:16px;font-weight:bold;cursor:pointer;text-decoration:none}
+button:hover,.hero-btn:hover{opacity:.9;transform:translateY(-2px)}
+.section{padding:70px 8%;text-align:center}.section h2,.info h2{font-size:36px;margin-bottom:10px}.subtitle{color:#657080;margin-bottom:30px}
+.calculator{background:white;max-width:520px;margin:auto;padding:32px;border-radius:15px;box-shadow:0 8px 25px rgba(0,0,0,.08);text-align:left}
+.calculator label{display:block;margin:15px 0 7px;font-weight:bold}.calculator input{width:100%;padding:13px;border:1px solid #ccd3df;border-radius:7px;font-size:16px}
+.calculator button{width:100%;margin-top:22px}#result{margin-top:20px;padding:16px;border-radius:8px;background:#eef5ff;font-weight:bold;text-align:center;min-height:20px}
+.light{background:#eef3fa}.table-wrap{max-width:850px;margin:30px auto 0;overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:white}th,td{padding:15px;border-bottom:1px solid #e5e9ef}th{background:#173b73;color:white}
+.info{padding:70px 8%;text-align:center}.steps{max-width:700px;margin:25px auto;text-align:left}.steps div{background:white;margin:12px 0;padding:17px;border-radius:8px;box-shadow:0 4px 15px rgba(0,0,0,.05)}
+.steps b{color:#173b73;margin-right:8px}footer{text-align:center;background:#14213d;color:white;padding:35px 15px}footer p{margin-top:8px;color:#d7dce5}
+@media(max-width:768px){header{flex-direction:column;gap:15px}nav{text-align:center}nav a{margin:5px;display:inline-block;font-size:14px}.hero h1{font-size:40px}.section h2,.info h2{font-size:30px}}
